@@ -1,0 +1,14 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": "27017",
+  "database": "node_micro_main",
+  "entities": [
+    "src/entity/*.js"
+  ],
+  "logging": true,
+  "synchronize": true,
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
